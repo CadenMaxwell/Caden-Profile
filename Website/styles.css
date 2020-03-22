@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background: #636363;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #ababab;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.ProfilePic{
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 65px;
+
+  position: relative;
+}
+
+nav a {
+  color: #595959;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #dbdbdb;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #3b3b3b;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+  width: 100%
+}
+
+.split {
+  width: 50%;
+  position: relative;
+  padding: 7px;
+}
+
+.left{
+  left: 0;
+}
+
+
+
+.Job{
+  height: 650px;
+  width: 600px;
+  padding-top: 5px;
+}
+
+.inline-block{
+  display: inline-block;
+  padding: 5px
+}
+
+.padsbro{
+  padding: 0.0000001px;
+}
